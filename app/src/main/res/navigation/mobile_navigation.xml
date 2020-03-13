@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.foliyoo.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_support"
+        android:name="com.example.foliyoo.SupportFragment"
+        android:label="@string/support"
+        tools:layout="@layout/fragment_support" />
+
+    <fragment
+        android:id="@+id/navigation_my_profile"
+        android:name="com.example.foliyoo.MyProfileFragment"
+        android:label="@string/my_profile"
+        tools:layout="@layout/fragment_my_profile" />
+    <fragment
+        android:id="@+id/navigation_bookings"
+        android:name="com.example.foliyoo.BookingsFragment"
+        android:label="@string/bookings"
+        tools:layout="@layout/fragment_bookings" />
+    <fragment
+        android:id="@+id/navigation_invite"
+        android:name="com.example.foliyoo.InviteFragment"
+        android:label="@string/invite"
+        tools:layout="@layout/fragment_invite" />
+</navigation>

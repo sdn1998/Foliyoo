@@ -1,0 +1,921 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="login">
+        <item name="android:textSize">
+            24sp
+        </item>
+        <item name="android:textColor">
+            #333333
+        </item>
+    </style>
+
+
+    <style name="enter_your_user">
+        <item name="android:textSize">
+            14sp
+        </item>
+        <item name="android:textColor">
+            #CFCDD5
+        </item>
+    </style>
+
+    <style name="enter_your_pass">
+        <item name="android:textSize">
+            14sp
+        </item>
+        <item name="android:textColor">
+            #CFCDD5
+        </item>
+    </style>
+
+    <style name="forgot_pass">
+        <item name="android:textSize">
+            12sp
+        </item>
+        <item name="android:textColor">
+            #FF6160
+        </item>
+    </style>
+
+    <style name="dont_have_account">
+        <item name="android:textSize">
+            14sp
+        </item>
+        <item name="android:textColor">
+            #1A191E
+        </item>
+    </style>
+
+    <style name="sign_up">
+        <item name="android:textSize">
+            16sp
+        </item>
+        <item name="android:textColor">
+            #FF2315
+        </item>
+    </style>
+
+    <style name="sign_up_heading">
+        <item name="android:textSize">
+            24sp
+        </item>
+        <item name="android:textColor">
+            #1A191E
+        </item>
+    </style>
+
+    <style name="business">
+        <item name="android:textSize">
+            14sp
+        </item>
+        <item name="android:textColor">
+            #9995A7
+        </item>
+    </style>
+
+    <style name="enter_full_">
+        <item name="android:textSize">
+            16.02sp
+        </item>
+        <item name="android:textColor">
+            #CFCDD5
+        </item>
+    </style>
+
+    <style name="by_creating">
+        <item name="android:textSize">
+            12.58sp
+        </item>
+        <item name="android:textColor">
+            #FF6160
+        </item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="heyfromjona">
+        <item name="android:textSize">
+            14sp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+    </style>
+
+    <style name="number">
+        <item name="android:textSize">
+            11sp
+        </item>
+        <item name="android:textColor">
+            #FFC3CA
+        </item>
+    </style>
+
+    <style name="foliyoo">
+        <item name="android:textSize">
+            20sp
+        </item>
+        <item name="android:textColor">
+            #FF2315
+        </item>
+    </style>
+
+    <style name="select_load">
+        <item name="android:textSize">
+            16.01sp
+        </item>
+        <item name="android:textColor">
+            #1A191E
+        </item>
+    </style>
+
+    <style name="enter_regis">
+
+        <item name="android:textSize">
+            22.84sp
+        </item>
+
+        <item name="android:textColor">
+            #1A191E
+        </item>
+
+    </style>
+
+    <style name="you_will_re">
+
+        <item name="android:textSize">
+            15.99sp
+        </item>
+
+        <item name="android:textColor">
+            #656175
+        </item>
+
+    </style>
+
+    <style name="didn_t_rece">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #1A191E
+        </item>
+
+    </style>
+
+    <style name="resend_now">
+
+        <item name="android:textSize">
+            18.28sp
+        </item>
+
+        <item name="android:textColor">
+            #FF2315
+        </item>
+
+    </style>
+
+    <style name="set_new_pas">
+
+        <item name="android:textSize">
+            27.38sp
+        </item>
+
+        <item name="android:textColor">
+            #333333
+        </item>
+
+    </style>
+
+    <style name="enter_new_p">
+
+        <item name="android:textSize">
+            15.97sp
+        </item>
+
+        <item name="android:textColor">
+            #CFCDD5
+        </item>
+
+    </style>
+
+    <style name="foliyoo_large">
+
+        <item name="android:textSize">
+            27.42sp
+        </item>
+
+        <item name="android:textColor">
+            #FF2315
+        </item>
+
+    </style>
+
+    <style name="version_1_0">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #1A191E
+        </item>
+
+    </style>
+
+    <style name="revision_nu">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #656175
+        </item>
+
+    </style>
+
+    <style name="copyright_2">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #656175
+        </item>
+
+    </style>
+
+    <style name="book_your_v">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #656175
+        </item>
+
+    </style>
+
+    <style name="conatct_us">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #1A191E
+        </item>
+
+    </style>
+
+    <style name="e_mail">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #4D4A59
+        </item>
+
+    </style>
+
+    <style name="e_mail_supp">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #FF6160
+        </item>
+
+    </style>
+
+    <style name="foliyoo_tec">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #656175
+        </item>
+
+    </style>
+
+    <style name="filter">
+
+        <item name="android:textSize">
+            13.73sp
+        </item>
+
+        <item name="android:textColor">
+            #9995A7
+        </item>
+
+    </style>
+
+    <style name="select_mont">
+
+        <item name="android:textSize">
+            16.02sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="who_are_we_">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #1A191E
+        </item>
+
+    </style>
+
+    <style name="foliyoo_an_">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #656175
+        </item>
+
+    </style>
+
+    <style name="you_and_you">
+
+        <item name="android:textSize">
+            16.02sp
+        </item>
+
+        <item name="android:textColor">
+            #4D4A59
+        </item>
+
+    </style>
+    <style name="invite_frie">
+
+        <item name="android:textSize">
+            18.31sp
+        </item>
+
+        <item name="android:textColor">
+            #1A191E
+        </item>
+
+    </style>
+
+    <style name="amount_to_p">
+
+        <item name="android:textSize">
+            16.02sp
+        </item>
+
+        <item name="android:textColor">
+            #1A191E
+        </item>
+
+    </style>
+
+    <style name="amount">
+
+        <item name="android:textSize">
+            22.89sp
+        </item>
+
+        <item name="android:textColor">
+            #FF2315
+        </item>
+
+    </style>
+
+    <style name="net_banking">
+
+        <item name="android:textSize">
+            16.02sp
+        </item>
+
+        <item name="android:textColor">
+            #656175
+        </item>
+
+    </style>
+
+    <style name="foliyoo_wal">
+
+        <item name="android:textSize">
+            16.02sp
+        </item>
+
+        <item name="android:textColor">
+            #1A191E
+        </item>
+
+    </style>
+
+    <style name="wallet_amount">
+
+        <item name="android:textSize">
+            32.04sp
+        </item>
+
+        <item name="android:textColor">
+            #FF2315
+        </item>
+
+    </style>
+
+    <style name="history">
+
+        <item name="android:textSize">
+            18.31sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="wallet_amount_">
+
+        <item name="android:textSize">
+            18.3sp
+        </item>
+
+        <item name="android:textColor">
+            #FF2315
+        </item>
+
+    </style>
+
+    <style name="xyz_transpo">
+
+        <item name="android:textSize">
+            16.02sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="search_amount">
+
+        <item name="android:textSize">
+            16.02sp
+        </item>
+
+        <item name="android:textColor">
+            #656175
+        </item>
+
+    </style>
+
+    <style name="original_price">
+
+        <item name="android:textSize">
+            9.16sp
+        </item>
+
+        <item name="android:textColor">
+            #BDBDBD
+        </item>
+
+    </style>
+
+    <style name="save_2_000_">
+
+        <item name="android:textSize">
+            9.16sp
+        </item>
+
+        <item name="android:textColor">
+            #BDBDBD
+        </item>
+
+    </style>
+
+    <style name="book_now">
+
+        <item name="android:textSize">
+            16.02sp
+        </item>
+
+        <item name="android:textColor">
+            #70BE45
+        </item>
+
+        <item name="android:shadowColor">
+            #3370BE45
+        </item>
+
+        <item name="android:shadowDx">
+            0
+        </item>
+
+        <item name="android:shadowDy">
+            3.43
+        </item>
+
+        <item name="android:shadowRadius">
+            5.72
+        </item>
+
+    </style>
+
+    <style name="some_id">
+
+        <item name="android:textSize">
+            9.16sp
+        </item>
+
+        <item name="android:textColor">
+            #9995A7
+        </item>
+
+    </style>
+
+    <style name="sort_by">
+
+        <item name="android:textSize">
+            13.73sp
+        </item>
+
+        <item name="android:textColor">
+            #9995A7
+        </item>
+
+    </style>
+
+    <style name="nit_rourkela_heading">
+
+        <item name="android:textSize">
+            22.89sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="download">
+
+        <item name="android:textSize">
+            14.88sp
+        </item>
+
+        <item name="android:textColor">
+            #FF6160
+        </item>
+
+    </style>
+
+    <style name="booking_id_">
+
+        <item name="android:textSize">
+            16.02sp
+        </item>
+
+        <item name="android:textColor">
+            #333333
+        </item>
+
+    </style>
+
+    <style name="nit_rourkela">
+
+        <item name="android:textSize">
+            16.02sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="tue_24_feb_">
+
+        <item name="android:textSize">
+            16.02sp
+        </item>
+
+        <item name="android:textColor">
+            #4F4F4F
+        </item>
+
+    </style>
+
+    <style name="booked">
+
+        <item name="android:textSize">
+            12.59sp
+        </item>
+
+        <item name="android:textColor">
+            #656175
+        </item>
+
+    </style>
+
+    <style name="small">
+
+        <item name="android:textSize">
+            13.73sp
+        </item>
+
+        <item name="android:textColor">
+            #1A191E
+        </item>
+
+    </style>
+
+    <style name="ton">
+
+        <item name="android:textSize">
+            11.44sp
+        </item>
+
+        <item name="android:textColor">
+            #9995A7
+        </item>
+
+    </style>
+
+    <style name="booking_sum">
+
+        <item name="android:textSize">
+            16.02sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="small_01">
+
+        <item name="android:textSize">
+            13.73sp
+        </item>
+
+        <item name="android:textColor">
+            #1A191E
+        </item>
+
+    </style>
+
+    <style name="congratulations">
+
+        <item name="android:textSize">
+            18.31sp
+        </item>
+
+        <item name="android:textColor">
+            #70BE45
+        </item>
+
+    </style>
+
+    <style name="truck_size">
+
+        <item name="android:textSize">
+            16.02sp
+        </item>
+
+        <item name="android:textColor">
+            #1A191E
+        </item>
+
+    </style>
+
+    <style name="jurisdictio">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #1A191E
+        </item>
+
+    </style>
+
+    <style name="foliyoo_com">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #656175
+        </item>
+
+    </style>
+
+    <style name="name">
+
+        <item name="android:textSize">
+            16.02sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="sivakumar_r">
+
+        <item name="android:textSize">
+            16.02sp
+        </item>
+
+        <item name="android:textColor">
+            #9995A7
+        </item>
+
+    </style>
+
+    <style name="edit">
+
+        <item name="android:textSize">
+            13.73sp
+        </item>
+
+        <item name="android:textColor">
+            #9995A7
+        </item>
+
+    </style>
+
+    <style name="gold_member">
+
+        <item name="android:textSize">
+            16.02sp
+        </item>
+
+        <item name="android:textColor">
+            #1A191E
+        </item>
+
+    </style>
+
+    <style name="enjoy_speci">
+
+        <item name="android:textSize">
+            22.89sp
+        </item>
+
+        <item name="android:textColor">
+            #9995A7
+        </item>
+
+    </style>
+
+    <style name="days_left">
+
+        <item name="android:textSize">
+            32sp
+        </item>
+
+        <item name="android:textColor">
+            #9995A7
+        </item>
+
+    </style>
+
+    <style name="vehicle_num">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="ap04_ap_638">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #9995A7
+        </item>
+
+    </style>
+
+    <style name="ton_18_ft_1">
+
+        <item name="android:textSize">
+            13sp
+        </item>
+
+        <item name="android:textColor">
+            #656175
+        </item>
+
+    </style>
+
+    <style name="am">
+
+        <item name="android:textSize">
+            13sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="gold_member_">
+
+        <item name="android:textSize">
+            10sp
+        </item>
+
+        <item name="android:textColor">
+            #656175
+        </item>
+
+    </style>
+
+    <style name="overall_rat">
+
+        <item name="android:textSize">
+            13.73sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="select_pick">
+
+        <item name="android:textSize">
+            16.02sp
+        </item>
+
+        <item name="android:textColor">
+            #1A191E
+        </item>
+
+    </style>
+
+    <style name="book_now_">
+
+        <item name="android:textSize">
+            14.88sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="MyToolbarStyle" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorSecondary">#333333</item>
+    </style>
+</resources>
